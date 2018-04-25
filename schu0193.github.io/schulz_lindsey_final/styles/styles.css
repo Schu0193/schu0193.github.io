@@ -1,0 +1,1198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS clearfix*/
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/*Font Squirrel fonts*/
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff2') format('woff2'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*End Font Squirrel Fonts*/
+/*Slideshow & Animation for Hogwarts pg.*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/*End Slideshow for Hogwarts pg.*/
+
+/* website styles- Mobile*/
+	/*Mobile Header*/
+
+@media only screen and (max-width: 768px){
+body{background-color: #FFFACD;}
+img.Logo {
+	text-align: center;
+	float: left;
+	width:38%;
+	border:solid;
+	border-color: darkgrey;
+	}
+
+h1{
+	text-align: center;
+	text-indent: 5%;
+	font-size: 50px;
+	border:solid;
+	border-color:darkgrey;
+	background-color:grey;
+	background-size: 25px;
+	color:black;
+	font-family: 'Lobster', cursive;
+}
+
+.heading{display: none;}
+.media{display: none;}
+
+#tickets a{
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 45px;
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative; 
+	top: 20px;
+	left: 4%;	
+	font-family: 'Lobster', cursive;	
+}
+label{
+	margin:0%;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	top: 35px;
+	left: 3%;
+	font-family: 'Lobster', cursive;
+}
+	/*End Mobile Header*/
+	/*Start Mobile Footer*/
+.footer{
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	bottom: 120px;
+		
+}
+.links_FT{
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 60px;
+	position: relative;
+	left: 10%;
+}
+ li{list-style-type: none;}
+h6{
+	color:black;
+	font-size: 25px;
+	position: relative;
+	bottom: 50px;
+}
+	/*End Mobile Footer*/
+	/*Start Mobile Home pg.*/
+.Books{display: none;}
+.books{display: none;}
+a.links{display: none;}
+.movie{display: none;}
+.Movie{display: none;}
+a.Mlinks {display: none;}
+nav.pop{
+	color: silver;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 55px;
+	position: relative;
+	top:65px;
+}
+.pop_text{
+	color: silver;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+	position: relative;
+	top: 65px;
+}
+img.HWpromo{
+	width:85%;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	top: 75px;
+	left: 8%;
+}
+.reviews{display: none;}
+.stars{display: none;}
+.footer{
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	top: 80px;		
+}
+h6{top: 80px;}
+	/*End Mobile Home pg.*/
+	/*Start Mobile Contact pg.*/
+	h2{
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 20px;	
+}
+
+.rep{
+	position: absolute;
+	top: 175px;
+}
+img.Mrs{
+	width: 45%;
+	position:relative; 
+	top: 85px;
+	right: 38%;	
+}
+.rep1{
+	text-align: left;
+	margin-left:47%;
+	position: relative;
+	bottom: 65px;
+	padding-bottom: 7px;
+}
+img.Mr{
+	width: 45%;
+	margin-left: .75%;
+	position: relative;
+	float: left;
+}
+.tra{
+	position: relative;
+}
+.tra1{
+	text-align: left;
+	margin-left:47%;
+	position: relative;
+	top: 10px;
+}
+.reg{
+	position: absolute;
+	top: 560px;	
+}
+.man{
+position: absolute;
+	top: 560px;
+	left: 20%;
+}
+img.Ms{
+	width: 45%;
+	margin-left: .75%;
+	position: relative;
+	top: 145px;
+	right: 46%;	
+	padding-bottom: 110px;
+}
+.reg1{
+	text-align: left;
+	margin-left:47%;
+	position: relative;
+	bottom: 85px;
+}
+form.email{
+	border:solid;
+	border-radius: 15%;
+	background-color:purple;	
+}
+select.email{
+	border:solid;
+	margin-top:10px;
+	margin-left: 5%;
+	margin-bottom: 0px;
+}
+input.email{
+	border:solid;
+	margin-left: 5%;
+	margin-bottom: 0px;
+}
+textarea{
+	border:solid;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+.sub{
+	margin-left: 25%;
+	margin-bottom: 7px;
+}
+.radio{
+	margin-left: 15%;
+	position: relative;
+	left: 45%;
+	bottom: 235px;
+}
+.radio2{
+	font-size: 15px;
+	position: relative;
+	left: 63%;
+	bottom: 252px;
+}
+.check{
+	font-size: 15px;
+	position: relative;
+	left: 62%;
+	bottom: 225px;
+}
+	/*End Mobile Contact pg.*/
+	/*Start Mobile Hogwarts pg. */
+#HOG{
+	color: purple;
+	position: relative;
+		top: 55px;
+	text-align: center;
+}
+#info{
+	text-align: left;
+	font-weight: normal;
+	position: relative;
+		top: 85px;
+	border: solid;
+	border-color: darkgrey;
+	background-color: silver;
+	font-family: 'open_sanslight', normal;
+}
+h4{
+	font-weight: bold;
+	font-size: 25px;
+}
+h5.pack{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.Slide{
+	border: solid;
+	border-color: silver;
+	display: block;
+}
+.mySlides{
+	position: relative;
+		top: 75px;
+		left: 5%;
+		text-align: center;
+}
+.switch{
+	position: relative;
+		top: 75px;
+}
+
+
+/*End Mobile Hogwarts pg.*/
+
+} 
+/*End Website styles - Mobile*/
+/* Start Website styles- Tablet*/
+	
+	/*Tablet Header*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+body{background-color: #FFFACD;}
+img.Logo {
+	text-align: center;
+	float: left;
+	width:25%;
+	border:solid;
+	border-color: darkgrey;
+	}
+h1{
+	text-align: center;
+	text-indent: 2%;
+	font-size: 65px;
+	border:solid;
+	border-color:darkgrey;
+	background-color:grey;
+	background-size: 25px;
+	color:black;
+	font-family: 'Lobster', cursive;
+}
+.heading{display: none;}
+.media{display: none;}
+#tickets a{
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 80px;
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	top: 15px;	
+	left: 10%;
+	font-family: 'Lobster', cursive;
+}
+label{
+	margin:0%;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 80px;
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	top: 30px;
+	left: 10%;
+	font-family: 'Lobster', cursive;
+}
+	/*End Tablet Header*/
+	/*Start Tablet Footer*/
+.footer{
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	bottom: 200px;		
+}
+.links_FT{
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 60px;
+	position: relative;
+	left: 10%;
+}
+ li{list-style-type: none;}
+h6{
+	color:black;
+	font-size: 25px;
+	position: relative;
+	bottom: 50px;
+}
+	/*End tablet footer*/
+	/*Start Tablet Home pg.*/
+.books{	
+	color: silver;
+	text-align: left;
+	text-decoration: none;
+	font-size: 65px;
+	position: relative;
+	top: 75px;
+}
+img.Books{
+	text-align: right;
+	width:30%;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	top: 80px;
+	left: 5%;
+}
+a.links {
+	color: purple;
+	text-align: left;
+	text-decoration: none;
+	font-size: 40px;
+	position: relative;
+	top:100px;
+	background-color: darkgrey;
+	border: double;
+	border-color: grey;	
+}
+a#Shire{
+	position: relative;
+	left: 25%;	
+}
+a#Arch{
+	position: relative;
+	left: 15%;	
+}
+a#Never{
+	position: relative;
+	left: 8%;
+}
+.Movie{
+	color: silver;
+	text-align: right;
+	text-decoration: none;
+	font-size: 65px;
+	position: relative;
+	top: 160px;
+	right: 5%;	
+}
+img.movie{
+	text-align: right;
+	width:30%;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	top: 160px;
+	left: 5%;
+}
+a.Mlinks {
+	color: purple;
+	text-align: left;
+	text-decoration: none;
+	font-size: 40px;
+	position: relative;
+	top:185px;
+	background-color: darkgrey;
+	border: double;
+	border-color: grey;	
+}
+a#Berk{
+	position: relative;
+	left: 30%;	
+}
+a#Tato{
+	position: relative;
+	left: 20%;	
+}
+a#Creed{
+	position: relative;
+	left: 10%;
+}
+nav.pop{
+	color: silver;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 55px;
+	position: relative;
+	top:250px;	
+}
+.pop_text{
+	color: silver;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+	position: relative;
+	top: 245px;
+}
+img.HWpromo{ 
+	width:85%;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	top: 250px;
+	left: 8%;
+}
+.footer{top: 260px;}
+h6{top: 260px;}
+
+	/*End Tablet Home pg.*/
+	/*Start Tablet Contact pg.*/
+
+h2{
+	font-size: 42px;
+	font-weight: bold;
+	padding-top: 20px;	
+}
+.rep{
+	position: relative;
+	top: 55px;
+}
+img.Mrs{
+	width: 50%;
+	margin-left: 1%;
+	position: relative;
+	top: 55px;
+	border: solid;
+	border-color: grey;	
+}
+.rep1{
+	text-align: left;
+	font-size: 30px;
+	margin-left:54%;
+	position: relative;
+	bottom: 178px;
+}
+.tra{
+	position: relative;
+	bottom: 50px;
+}
+img.Mr{
+	width: 50%;
+	margin-left: 1%;
+	position: relative;
+	bottom: 50px;
+	float: left;
+	border: solid;
+	border-color: grey;
+}
+.tra1{
+	text-align: left;
+	font-size: 30px;
+	margin-left:54%;
+	position: relative;
+	bottom: 25px;
+}
+.reg{
+	position: relative;
+	top: 145px;
+	right: 50%;	
+}
+.man{
+position: relative;
+	top: 83px;
+	right: 27%;
+}
+img.Ms{
+	width: 50%;
+	margin-left: 1%;
+	position: relative;
+	top: 52px;	
+	border: solid;
+	border-color: grey;
+}
+.reg1{
+	text-align: left;
+	font-size: 30px;
+	margin-left:54%;
+	position: relative;
+	bottom:185px;
+}
+form.email{
+	border:solid;
+	border-radius: 15%;
+	background-color:purple;	
+}
+select.email{
+	font-size: 30px;
+	border:solid;
+	margin-top:10px;
+	margin-left: 15%;
+	margin-bottom: 0px;
+}
+input.email{
+	font-size: 30px;
+	border:solid;
+	margin-left: 10%;
+	margin-bottom: 0px;
+}
+textarea{
+	font-size: 30px;
+	border:solid;
+	margin-left: 10%;
+	margin-top: 0px;
+	width: 50%;
+}
+.sub{
+	margin-left: 25%;
+	margin-bottom: 7px;
+	font-size: 20px;
+}
+.radio{
+	margin-left: 15%;
+	position: relative;
+	left: 48%;
+	bottom: 355px;
+}
+.radio2{
+	font-size: 40px;
+	position: relative;
+	left: 65%;
+	bottom: 382px;
+}
+.check{
+	font-size: 35px;
+	position: relative;
+	left: 70%;
+	bottom: 365px;
+}
+.footer{top: 0px;}
+h6{top: 0px;}
+
+	/*End Tablet Contact pg.*/
+	/*Start Tablet Hogwarts pg.*/
+
+#HOG{
+	color: purple;
+	position: relative;
+		top: 55px;
+	text-align: center;
+}
+#info{
+	text-align: left;
+	font-weight: normal;
+	position: relative;
+		top: 85px;
+	border: solid;
+	border-color: darkgrey;
+	background-color: silver;
+	font-family: 'open_sanslight', normal;
+}
+h4{
+	font-weight: bold;
+	font-size: 25px;
+}
+h5.pack{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.Slide{
+	border: solid;
+	border-color: silver;
+	display: block;
+}
+.mySlides{
+	position: relative;
+		top: 75px;
+		left: 5%;
+		text-align: center;
+}
+.switch{
+	position: relative;
+		top: 75px;
+}
+#locationlist{
+	position: relative;
+		top: 55px;
+}
+#copy{
+	position: relative;
+		top: 25px;
+}
+
+	/*End Tablet Hogwarts pg.*/
+}
+	/*End Tablet Styles*/
+	/*Desktop Header*/
+
+@media only screen and (min-width: 1024px){
+	body{background-color: #FFFACD;}
+
+img.Logo {
+	float: left;
+	width:25%;
+	border:solid;
+	border-color: darkgrey;
+}
+
+h1{
+	text-align:left;
+	font-size: 140px;
+	border:solid;
+	border-color:darkgrey;
+	background-color:grey;
+	background-size: 50px;
+	color:black;
+	font-family: 'Lobster', cursive;
+}
+.heading{display: none;}
+.media{
+	width:4.8%;
+	position: relative;
+	left: 26.5%;
+	bottom: 55px;
+}
+#tickets a{
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 70px;
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	left: 2%;
+	bottom: 45px;	
+	font-family: 'Lobster', cursive;
+}
+label{
+	color: silver;
+	color: silver;
+	text-align: right;
+	text-decoration: none;
+	font-size: 70px;
+	border:solid;
+	border-color:silver;
+	border-radius: 15px;
+	background-color:purple;
+	position: relative;
+	bottom: 115px;
+	left: 58%;
+	float: top;
+	font-family: 'Lobster', cursive;
+}
+	/*End Desktop Header*/
+	/*Start Desktop Footer*/
+
+.links_FT{
+	color: silver;
+	text-decoration: none;
+	border:solid;
+	border-color:silver;
+	border-radius: 60px;
+	background-color:purple;
+	width: 30%;
+	height: 60px;
+	position: relative;
+	left: 1%;
+	display: inline-block;
+	float: bottom;
+	margin-bottom:15px;		
+}
+.footer{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 60px;
+	position: relative;
+	display: inline-block;
+	position: relative;	
+}
+li{
+	list-style: none;
+	display: inline;
+	text-decoration: none;	
+}
+h6{
+	color:black;
+	font-size: 25px;
+	position: relative;
+}
+	/*End Desktop Footer*/
+	/*Start Desktop Home pg.*/
+
+.books{	
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 65px;
+	position: relative;
+	top: 1px;
+	left: 11%;
+}
+
+img.Books{
+	text-align: center;
+	width:17.25%;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	left: 45%;
+}
+a.links {
+	color: purple;
+	text-align: left;
+	text-decoration: none;
+	font-size: 37px;
+	position: relative;
+	top:10px;
+	background-color: darkgrey;
+	border: double;
+	border-color: grey;	
+}
+a#Shire{
+	position: relative;
+	left: 57%;	
+}
+a#Arch{
+	position: relative;
+	left: 51%;	
+}
+a#Never{
+	position: relative;
+	left: 47%;
+}
+.Movie{
+	color: silver;
+	text-align: left;
+	text-decoration: none;
+	font-size: 65px;
+	position: relative;
+	top: 100px;
+	left: 44%;	
+}
+
+img.movie{
+	float: top;
+	text-align: right;
+	width:17.25%;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	top: 100px;
+	left: 45%;
+}
+a.Mlinks {
+	float: top;
+	color: purple;
+	text-align: left;
+	text-decoration: none;
+	font-size: 37px;
+	position: relative;
+	top:107px;
+	background-color: darkgrey;
+	border: double;
+	border-color: grey;	
+}
+a#Berk{
+	position: relative;
+	left: 60%;	
+}
+a#Tato{
+	position: relative;
+	left: 53%;	
+}
+a#Creed{
+	position: relative;
+	left: 48%;
+}
+nav.pop{
+	color: silver;
+	color: silver;
+	text-align: center;
+	text-decoration: none;
+	font-size: 100px;
+	position: relative;
+	bottom: 500px;
+	right: 29%;	
+}
+.pop_text{ 
+	color: silver;
+	color: silver;
+	text-align: left;
+	text-decoration: none;
+	font-size: 45px;
+	position: relative;
+	bottom: 480px;
+	left:1%;
+}
+img.HWpromo{ 
+	float: top;
+	width:40%;
+	margin:0px;
+	border:solid;
+	border-color: darkgrey;
+	position: relative;
+	left: 1%;
+	bottom: 465px;	
+}
+.footer{bottom: 355px;}
+h6{bottom: 355px;}
+	/*End Desktop Home pg.*/
+	/*Start Desktop Contact pg.*/
+h2{
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 20px;	
+}
+.rep{
+	position: relative;
+}
+img.Mrs{
+	width: 45%;
+	margin-left: .75%;
+	position: relative;	
+}
+.rep1{
+	font-size: 50px;
+	text-align: left;
+	margin-left:47%;
+	position: relative;
+	bottom: 350px;
+}
+img.Mr{
+	width: 45%;
+	margin-left: .75%;
+	position: relative;
+	bottom: 150px;
+	float: left;
+}
+.tra{
+	position: relative;
+	bottom: 150px;
+}
+.tra1{
+	font-size: 50px;
+	text-align: left;
+	margin-left:47%;
+	position: relative;
+	bottom: 125px;
+}
+
+.reg{
+	position: relative;
+	top: 135px;
+	right: 45%;	
+}
+.man{
+position: relative;
+	top: 45px;
+	right: 24%;
+}
+img.Ms{
+	width: 45%;
+	margin-left: .75%;
+	position: relative;
+	top: 50px;
+	right: 45.25%;	
+}
+.reg1{
+	font-size: 50px;
+	text-align: left;
+	margin-left:47%;
+	position: relative;
+	bottom: 315px;
+}
+form.email{
+	margin-right: 2%;
+	margin-left: 2%;
+	border:solid;
+	border-radius: 23%;
+	background-color:purple;	
+}
+select.email{
+	text-align: left;
+	position:relative;
+	top: 10px;
+	left: 17%;
+	border:solid;
+	font-size: 40px;
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+input.email{
+	font-size:35px; 
+	position: relative;
+	top: 2px;
+	border:solid;
+	margin-left: 15%;
+	margin-bottom: 0px;
+}
+textarea{
+	border:solid;
+	margin-left: 15%;
+	margin-top: 0px;
+	font-size: 30px;
+	position: relative;
+	bottom: 7px;
+}
+.sub{
+	font-size: 35px;
+	float:right;
+	position: relative;
+	bottom: 400px;
+	right: 25%;
+	margin-left: 25%;
+	margin-bottom: 7px;
+}
+.radio{
+	margin-left: 15%;
+	position: relative;
+	left: 45%;
+	bottom: 315px;
+}
+.radio2{
+	font-size: 35px;
+	position: relative;
+	left: 63%;
+	bottom: 340px;
+}
+.check{
+	font-size: 25px;
+	position: relative;
+	left: 62%;
+	bottom: 325px;
+}
+#location-list{
+	/*top: 0px;*/
+	bottom: 175px;
+}
+h6#c{bottom: 165px;}
+
+	/*End Desktop Contact pg.*/
+	/*Start Desktop Hogwarts pg. */
+
+#HOG{
+	color: purple;
+	position: relative;
+		top: 55px;
+	text-align: center;
+}
+#info{
+	text-align: left;
+	font-weight:normal ;
+	position: relative;
+		top: 85px;
+	border: solid;
+	border-color: darkgrey;
+	background-color: silver;
+	font-family: 'open_sanslight', normal;
+}
+h4{
+	font-weight: bold;
+	font-size: 25px;
+}
+h5.pack{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+
+.Slide{
+	border: solid;
+	border-color: silver;
+	display: block;
+}
+.mySlides{
+	position: relative;
+		top: 75px;
+		left: 5%;
+		text-align: center;
+}
+.switch{
+	position: relative;
+		top: 75px;
+}
+#locationlist{
+	position: relative;
+		top: 95px;
+}
+#copy{
+	position: relative;
+		top: 115px;
+}
+
+	/*End Desktop Hogwarts pg.*/	
+}
+	/*End Desktop Styles*/
+	/*End Website Styles*/
+	
